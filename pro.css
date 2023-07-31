@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color:  #5169783b;
+
+  }
+  /* full top line */
+  .top{
+
+      color:  solid black;
+      background-color: #51697800;;
+      text-align: center;
+      padding: 5px;
+      font-size: smaller;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 540;
+      
+  }
+  /* navigation bar */
+.navbar{
+    background-color: black;
+    /* border-radius: 30px; */
+    padding: auto;
+}
+/* for overflow in navigation bar */
+.navbar ul{
+overflow: auto;
+}
+/* for move the button on right side */
+.navbar li{
+    float: right;
+    margin: 12px;
+}
+/* for buttons */
+.but{
+    color:white;
+    border-radius: 10px;
+    text-decoration: none;  
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+/* for button style. */
+.but:hover{
+    color: wheat;
+
+}
+/* for search bar. */
+.search{
+    margin: 10px;
+}
+  /* for searchbar input   */
+.navbar input{
+    border: solid black;
+    border-radius: 8px;
+    padding: 5px;
+    width: auto;
+}
+/* Web logo */
+.logo{
+    margin: 5px;
+    height: 7rem;
+    width:  7rem;
+}
+.cloth{
+    margin: 1px;
+    height: 25rem;
+    width: 85rem;
+    margin: auto;
+    /* border: 2px solid black; */
+    /* border-radius: 30px;
+    margin-left: 36px;
+    margin-top: 1px; */  
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+}
+/* first heading in code */
+.head1{
+    padding: 20px;
+    position:absolute;
+    top: 5px;
+    left: 16px;
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgba(245, 245, 245, 0.884);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Shop now Button */
+.shop{
+    position:absolute;
+    bottom: 40px;
+    left: 30px;
+    color: white;
+    margin-left: 110px;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:black;   
+    padding: 10px;  
+}
+/* Shop now button hover */
+.shop:hover{
+    background-color: rgba(238, 255, 235, 0.486);
+}
+/* collection heading */
+.collection{
+    margin-left: 20px;
+    font-size: xx-large ;
+    border: 2px solid black;
+    margin-right: 1120px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* container2 */
+.container2{
+    
+    margin-left: 39px;
+    margin-right: 5px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: black;
+    border-radius: 5px;
+}
+/* coat and shirts */
+.coat{
+    width: 246px;
+    height: 346px;    
+}
+/* coat and shirts borders */
+.box{
+    display: inline-block;
+    border: 2px solid white;
+    width: 250px;
+    height: 350px;
+    margin: 30px;   
+}
+/* more items button */
+.but2{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    margin-right: 1170px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color:black;
+}   
+/* more item hover  */
+.but2:hover{
+    background-color: rgba(238, 255, 235, 0.486);
+}
+/* website footer  */
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+
+}
+/* contact us word  */
+.aboutus{
+    font-size: xx-large;
+    margin-left: 77px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* about us website info  */
+.webinfo{
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+/* contact us word in website  */
+.contactus{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+
+}
+/* facebook logo  */
+.fblogo{
+    height: 5rem;
+    width: 7rem;
+    display: flex;
+    position: relative;
+    right: 20px; 
+}
+/* instagram logo  */
+.instalogo{
+    position: relative;
+    height: 3rem;
+    width:   3rem;
+    right: 114px;
+    margin-top: 10px;
+}
+/* MIAN TAYYAB NAME facebook detail  */
+.fbmian{
+    font-size: x-large;
+    position: relative;
+    left: 30px;
+    bottom: 44px;
+}
+/* instagram mian tayyab detalid */
+.instamian{
+    font-size: xx-large;
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+}
+/* gmail logo  */
+.gmaillogo{
+    width: 4rem;
+    position: relative;
+    right: 111px;
+}
+/* gmail mian tayyab details  */
+.gmailmian{
+    font-size: x-large;
+    position: relative;
+    left: 100px;
+    bottom: 44px;
+}
+
+
+
+
+
